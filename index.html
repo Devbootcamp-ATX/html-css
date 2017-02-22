@@ -71,65 +71,65 @@
           <td style="vertical-align:top"><strong style='font-size:46px'>Overview</strong></td>
           <td style='padding-bottom: 30px;'>
             <ul>
-              <li>Bird's eye view of the web</li>
-              <li>Python vs Ruby vs PHP</li>
+              <li>What is HTML &amp; CSS</li>
+              <li>Tools of the Trade</li>
             </ul>
           </td>
         </tr>
         <tr class="fragment">
-          <td style="vertical-align:top;padding-bottom: 30px;padding-top:30px;"><strong style='font-size:46px'>Python 101</strong></td>
+          <td style="vertical-align:top;padding-bottom: 30px;padding-top:30px;"><strong style='font-size:46px'>HTML 101</strong></td>
           <td style='padding-bottom: 30px;padding-top:30px;'>
             <ul>
-              <li>Data types - Strings, Numbers, etc</li>
-              <li>Data structures - Lists &amp; Dictionaries</li>
+              <li>How a website is structured</li>
+              <li>HTML Basics</li>
             </ul>
           </td>
         </tr>
         <tr class="fragment">
-          <td style="vertical-align:top;padding-top:30px;"><strong style='font-size:46px'>Live Code</strong></td>
+          <td style="vertical-align:top;padding-top:30px;"><strong style='font-size:46px'>CSS 101</strong></td>
           <td style='padding-top:30px;'>
             <ul>
-              <li class="breakout">Let's build a real web app!</li>
-              <li>Flask - a basic web server in Python</li>
+              <li>Let's make things look pretty!</li>
+              <li>The Box Model</li>
             </ul>
           </td>
         </tr>
       </table>
     </section>
 
-      
-
         <section>
-          <h2>Outline</h2>
-          <ul>
-            <li>What are HTML and CSS?</li>
-            <li>Exploration of an HTML element</li>
-            <li>Common HTML elements</li>
-            <li class="breakout">Breakout - Build a site</li>
-            <li>Explanation of CSS</li>
-            <li class="breakout">Breakout - Improve your site</li>
-            <li>Positioning with CSS</li>
-            <li class="breakout">Breakout - Make your site truly awesome</li>
-          </ul>
+          <h1 class='breakout'>Overview</h1>
         </section>
-
         <section>
-          <h2>HTML and CSS: Together at Last</h2>
-          <aside class="notes">HTML and CSS and the role they play in the web (5min)</aside>
+          <img src="img/html-css-javascript.png">
+        </section>
+        <section>
+          <img src="img/languages-vs-web-dev.png" alt="">
+        </section>
+        <section>
+          <img src="img/web-publishing.png" alt="">
+        </section>
+        <section>
+          <h2 class='breakout'>Tools of the Trade</h2>
+        </section>
+        <section>
+          <img src="img/tools-of-the-trade.png" alt="">
+        </section>
+        <section>
+          <img src="img/file-browser.png" alt="">
+        </section>
+        <section>
+          <img src="img/atom-split-panes.png" alt="">
+        </section>
+        <section>
+          <img src="img/web-dev-workflow.png" alt="">
         </section>
 
         <section>
           <h2>What is HTML?</h2>
           <p>HTML is the coding language that lets us <strong>build websites</strong> and create its content.</p>
-          <img src="intro-to-html-css/img/devbootcamp.jpg" width="700px" />
         </section>
 
-        <section>
-          <h2>What is HTML?</h2>
-          <p>You can right-click and press <strong>View Source</strong> on any webpage to see this code.</p>
-          <img src="intro-to-html-css/img/devbootsource.png"/>
-          <aside class="notes">Give an example of this in Chrome</aside>
-        </section>
 
         <section>
           <h2>Why use HTML?</h2>
@@ -193,10 +193,6 @@
               </code>
             </pre>
           <p>Tags always travel in pairs -<br />an opening tag, and a complimentary closing tag.</p>
-        </section>
-
-        <section>
-          <img src="intro-to-html-css/img/tagbreakdown.png" style="height: 650px;" />
         </section>
 
         <section>
@@ -311,109 +307,22 @@
           <p>Whichever element opens <strong>first</strong>, closes <strong>last</strong>.
         </section>
 
-        <!-- Examples of some common HTML elements (5min) -->
         <section>
-          <h2>Common elements: paragraph</h2>
-          <p>We've seen the paragraph (<strong>&lt;p&gt;</strong>) tag, but <br />here's how it looks in the browser:</p>
-          <img src="intro-to-html-css/img/p-tag.png" style="width: 600px;" />
+          <img src="img/html-tags-elements.png" alt="">
         </section>
-
         <section>
-          <h2>Common elements: headings</h2>
-          <p>There are also numbered heading tags,<br/> starting from <strong>&lt;h1&gt;</strong> up to <strong>&lt;h6&gt;</strong>.</p>
-          <p>These are used for creating big document headings, <br/>and present relative to their numbers:</p>
-          <img src="intro-to-html-css/img/heading-tags.png" style="width: 600px;" />
-        </section>
-
-        <section>
-          <h2>Common elements: images</h2>
-          <p><strong>&lt;img&gt;</strong> tags are used for embedding images into a page.</p>
-          <p>Because images are cool.</p>
-          <pre>
-            <code>
-  <img src="http://corgi.butt/treadmill.gif" />
-            </code>
-          </pre>
-          <img src="http://www.dailybunny.com/.a/6a00d8341bfd0953ef0148c793026c970c-pi"/>
-          <aside class="notes">
-            Demonstrate how you can find an image link
-          </aside>
-        </section>
-
-        <!-- The idea of implicit styling by a browser (5min) -->
-        <section>
-          <h2>Aside: browser styling</h2>
-          <p>Browsers provide a default styling to HTML elements.</p>
-          <p>We talked about HTML being a <strong>document</strong> language before; think of the default styles as Microsoft Word-esque styling.</p>
-        </section>
-
-        <!-- DEMO : Build a website using only tags (20min) -->
-        <section>
-          <h1>omg let's build.</h1>
-          <p><a href="http://bit.ly/html-css-intro">http://bit.ly/html-css-intro</a></p>
-          <aside class="notes">Let's build a website using only HTML tags</aside>
-        </section>
-
-        <section>
-          <h2>Common elements: links</h2>
-          <p>A link has three main elements:</p>
-          <ul>
-            <li><strong>&lt;a&gt;&lt;a/&gt;</strong> - the tags.</li>
-            <li><strong>href attribute</strong> - the link url. (http://devbootcamp.com)</li>
-            <li><strong>content</strong> - the text you see. (Dev Bootcamp)</li>
-          </ul>
-          <pre>
-            <code>
-  <a href="http://devbootcamp.com">Dev Bootcamp</a>
-            </code>
-          </pre>
-        </section>
-
-        <section>
-          <h2>Common elements: line breaks</h2>
-          <p>Using <strong>&lt;br/&gt;</strong> lets you add manual new lines into text content.</p>
-          <pre>
-            <code>
-  <p>
-    This is <br/>
-    the part when I say <br/>
-    I don't want ya <br/>
-    I'm stronger than I've been before.
-  </p>
-            </code>
-          </pre>
-        </section>
-
-        <section>
-          <h2>Common elements: <br />unordered and ordered lists</h2>
-          <p><strong>&lt;ul&gt;</strong> and <strong>&lt;ol&gt;</strong> allow you to create lists with bullets or numbers respectively.</p>
-          <p><strong>&lt;li&gt;</strong> adds list items to either. This is where your <strong>content</strong> lives.</p>
-          <pre style="float: left; width:500px;">
-            <code>
-  <ul>
-    <li>List item one</li>
-    <li>List item two</li>
-    <li>List item three</li>
-  </ul>
-
-  <ol>
-    <li>List item one</li>
-    <li>List item two</li>
-    <li>List item three</li>
-  </ol>
-            </code>
-          </pre>
-          <img src="intro-to-html-css/img/list-tags.png" style="margin-top: 40px;" />
-        </section>
-
-        <section>
-          <h2>List examples</h2>
-          <img src="intro-to-html-css/img/example-lists.png" />
+          <img src="img/html-head-body.png" alt="" style="margin-top:-40px; max-height:700px">
         </section>
 
         <section>
           <h1>omg let's build.</h1>
         </section>
+
+        <section>
+          <img src="img/basic-web-pages.png" alt="" style='margin-top:-50px; max-height:800px;'>
+        </section>
+
+
         <!-- A breakdown of CSS &#45; selector, property, value (10min) -->
         <section>
           <h2>What is CSS for?</h2>
@@ -423,19 +332,16 @@
         </section>
 
         <section>
+          <img src="img/structure-vs-presentation.png" alt="">
+        </section>
+
+        <section>
           <h2>What can CSS do?</h2>
           <p>All colors, positioning, and size.</p>
-          <img src="intro-to-html-css/img/devbootcamp.jpg" width="700px" />
         </section>
 
         <section>
-          <h2>What does CSS look like?</h2>
-          <img src="intro-to-html-css/img/homepage-css.png" />
-        </section>
-
-        <section>
-          <h2>A CSS Rule</h2>
-          <img src="intro-to-html-css/img/cssrule.png" />
+          <img src="img/css-vs-html.png" />
         </section>
 
         <section>
@@ -521,18 +427,35 @@
             <li>margin</li>
           </ul>
         </section>
+        <section>
+          <img src="img/css-rule-terminology.png" alt="">
+        </section>
+
+        <section>
+          <img src="img/link-element.png" alt="" style='max-height:700px;margin-top:-50px;'>
+        </section>
+
+        <section>
+          <img src="img/reusable-css-stylesheets.png" alt="" style='max-height:700px;margin-top:-50px;'>
+        </section>
+
+        <section>
+          <img src="img/responsive-css.png" alt="" style='max-height:700px;margin-top:-50px;'>
+        </section>
+        <section>
+          <img src="img/css-cascade.png" alt="" style='max-height:700px;margin-top:-50px;'>
+        </section>
 
         <section>
           <h2>The Box Model</h2>
           <p>Every element on a page is represented as a rectangle or "box".</p>
-          <img src="intro-to-html-css/img/dbc-box-example.jpg">
+          <img src="img/inline-vs-block-boxes.png" style="max-height: 400px;">
         </section>
 
         <section>
           <h2>The Box Model</h2>
           <p>And every "box" on the page has four properties that determines its size and position:</p>
-          <img src="intro-to-html-css/img/devtools-box-model.jpg
-          ">
+          <img src="img/css-box-model.png" style="max-height: 400px;">
         </section>
 
         <section>
@@ -540,324 +463,20 @@
           <p>You can use the Chrome Developer Tools to inspect any webpage to see how the boxes are laid out. Let's do that now...</p>
         </section>
 
-        <section>
-          <h1>omg let's build.</h1>
-        </section>
 
         <section>
           <h2>Resources to learn more</h2>
           <ul>
-            <li>Codecademy</li>
+            <li>internetingishard.com</li>
             <li>Code School</li>
             <li>Treehouse</li>
-            <li>learn.shayhowe.com</li>
             <li>css-tricks.com</li>
             <li>learnlayout.com</li>
             <li>Google</li>
             <li>Smashing Magazine</li>
           </ul>
         </section>
-        <!-- A quick demo of positioning (10min) -->
-        <section>
-          <h2>Thanks for joining us!</h2>
-          <aside class="notes">
-            A quick demo of parent and hierarchical property inheritance (5min)<br>
-            Examples of some common CSS properties and values (5min)<br>
-            DEMO : Either change your website with colors and images, or play with a prebuilt site
-          </aside>
-        </section>
-        <!-- A quick demo of parent and hierarchical property inheritance (5min) -->
-        <!-- Examples of some common CSS properties and values (5min) -->
-        <!-- DEMO : Either change your website with colors and images, or play with a prebuilt site (30 min) -->
 
-    <section>
-      <h1><strong>How does a web app work?</strong></h1>
-    </section>
-    <section>
-      <img src="img/web_chart.png" style='max-width:700px;'>
-    </section>
-
-    <section>
-      <h1><strong>Python</strong></h1>
-      <h1 class="fragment"><strong>Ruby</strong></h1>
-      <h1 class="fragment"><strong>PHP...?</strong></h1>
-    </section>
-    <section>
-      <img src="img/comparison_chart.png" style='max-width:500px;'>
-      <p><small><a href="https://blog.udemy.com/modern-language-wars/">blog.udemy.com/modern-language-wars/</a></small></p>
-    </section>
-
-    <section>
-      <h1><strong>Tools</strong></h1>
-    </section>
-    <section>
-      <h2>Google Chrome</h2>
-      <h2>Terminal</h2>
-      <h2>Sublime Text</h2>
-      <h2></h2>
-    </section>
-
-    
-    <section>
-      <h2>Research Resources</h2>
-      <p>The following resources are particularly helpful:</p>
-      <ul>
-        <li>Stack Overflow</li>
-        <li>LearnPythonTheHardWay.org/book</li>
-        <li>Guides and blog posts</li>
-      </ul>
-    </section>
-
-    <section>
-      <h1><strong>Coding Basics</strong></h1>
-      <h3>(through a Python lens)</h3>
-    </section>
-    <section>
-      <h2>A bunch of jargon</h2>
-      <ul>
-        <li class="fragment">"variable"</li>
-        <li class="fragment">"string"</li>
-        <li class="fragment">"integer"</li>
-        <li class="fragment">"return-value"</li>
-        <li class="fragment">"array"</li>
-        <li class="fragment">"object"</li>
-        <li class="fragment">"key"</li>
-        <li class="fragment">"function"</li>
-      </ul>
-      <h3 class="fragment"><strong>What does it all mean!?</strong></h3>
-    </section>
-    <section>
-      <h2>Variables</h2>
-      <p>A variable is a way of <strong>naming things</strong> so we have a reference to them later.</p>
-    </section>
-    <section>
-      <h2>Variables</h2>
-      <p class="fragment">Think of variables as a <strong>label</strong> we can write on and apply to different things.</p>
-      <img src="img/post-it.png" width="50%"/ class="fragment">
-    </section>
-    <section>
-      <h2>Variables</h2>
-      <p>Let's come back to variables once we learn about a few different <strong>data types</strong> we can label.</p>
-    </section>
-    <section>
-      <h2>Strings</h2>
-      <p class="fragment">A string is simply a <strong>sequence of characters</strong>. In fact, this sentence itself could be a string. This is what it would look like in JavaScript:</p>
-      <pre class="fragment">
-        <code class="javascript">
-          "In fact, this sentence itself could be a string."
-        </code>
-      </pre>
-    </section>
-    <section>
-      <h3>Strings can vary greatly in length, <span class="fragment">from entire novels...</span></h3>
-      <pre class="fragment">
-        <code class="javascript">
-    "Well, Prince, so Genoa and Lucca are now just family estates of the Buonapartes. But I warn you, if you don't tell me that this means war, if you still try to defend the infamies and horrors perpetrated by that Antichrist—I really believe he is Antichrist—I will have nothing more to do with you and you are no longer my friend, no longer my 'faithful slave,' as you call yourself! But how do you do? I see I have frightened you—sit down and tell me all the news..."
-        </code>
-      </pre>
-    </section>
-    <section>
-      <h3>...to single words...</h3>
-      <pre class="fragment">
-        <code class="javascript">
-                              "hello"
-        </code>
-      </pre>
-    </section>
-    <section>
-      <h3>...to nothing at all.</h3>
-      <pre class="fragment">
-        <code class="javascript">
-                                  ""
-        </code>
-      </pre>
-      <p class="fragment">(this is known as an <strong>empty string</strong>)</p>
-    </section>
-    <section>
-      <h2>Strings</h2>
-      <p>Strings can contain numbers and don't have to make sense at all:</p>
-      <pre>
-        <code class="javascript">
-          "9m52bqu4239wl"
-        </code>
-      </pre>
-    </section>
-    <section>
-      <h2>Strings</h2>
-      <p>The <strong>syntax</strong> for creating strings in JavaScript is to wrap any number of characters in single or double quotes.</p>
-      <pre>
-        <code class="javascript">
-          "This is a string."
-        </code>
-        <code class="javascript">
-          'This is also a string.'
-        </code>
-      </pre>
-    </section>
-
-    <section>
-      <h2>Numbers</h2>
-      <p>Numbers are another common data type that you will see and use in the wild.</p>
-    </section>
-    <section>
-      <h2>Numbers</h2>
-      <p>The <strong>syntax</strong> for numbers in Python is fairly intuitive.</p>
-      <pre class="fragment">
-        <code class="javascript">
-                              42
-                              3.14
-                              100
-                              10000
-        </code>
-      </pre>
-    </section>
-    <section>
-      <h2>Numbers</h2>
-      <p>You can perform simple arithmetic on numbers using:</p>
-      <table>
-        <tr class="fragment">
-          <td>Addition</td>
-          <td>+</td>
-        </tr>
-        <tr class="fragment">
-          <td>Subtraction</td>
-          <td>-</td>
-        </tr>
-        <tr class="fragment">
-          <td>Multiplication</td>
-          <td>*</td>
-        </tr>
-        <tr class="fragment">
-          <td>Division</td>
-          <td>/</td>
-        </tr>
-        <tr class="fragment">
-          <td>Modulus</td>
-          <td>%</td>
-        </tr>
-        <tr class="fragment">
-          <td>Increment</td>
-          <td>+=</td>
-        </tr>
-        <tr class="fragment">
-          <td>Decrement</td>
-          <td>-=</td>
-        </tr>
-      </table>
-    </section>
-    <section>
-      <h2>Numbers</h2>
-      <p>You can also perform simple comparison operations on numbers using:</p>
-      <table>
-        <tr class="fragment">
-          <td>Equality</td>
-          <td>==</td>
-        </tr>
-        <tr class="fragment">
-          <td>Inequality</td>
-          <td>!=</td>
-        </tr>
-        <tr class="fragment">
-          <td>Greater than</td>
-          <td>></td>
-        </tr>
-        <tr class="fragment">
-          <td>Greater than or equal to</td>
-          <td>>=</td>
-        </tr>
-        <tr class="fragment">
-          <td>Less than</td>
-          <td><</td>
-        </tr>
-        <tr class="fragment">
-          <td>Less than or equal to</td>
-          <td><=</td>
-        </tr>
-      </table>
-    </section>
-
-
-    <section>
-      <h2>Data structures</h2>
-      <p>Let's look at two more <strong>data structures</strong>:</p>
-      <ul>
-        <li class="fragment">Lists</li>
-        <li class="fragment">Dictionaries</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Data structures</h2>
-      <p>For the following data structures, we are going to learn how to create, or <strong>instantiate</strong>, them and then learn the following operations:</p>
-      <ul>
-        <li class="fragment">Accessing values</li>
-        <li class="fragment">Updating values</li>
-        <li class="fragment">Inserting values</li>
-        <li class="fragment">Removing values</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Lists</h2>
-      <p>Just like a <strong>variable</strong> holds a single value, a <strong>list</strong> holds a collection of values.</p>
-    </section>
-
-    <section>
-      <h2>Lists</h2>
-      <p>Think of an list as a list of boxes, each of which stores a value.</p>
-      <img src="img/array.gif" class="fragment" style="min-width:800px">
-    </section>
-
-
-    <section>
-      <h2>Dictionaries</h2>
-      <p class="fragment"><strong>Dictionaries</strong> in Python are similar to lists in that they contain a collection of values.</p>
-      <p class="fragment">However, unlike list values which are <strong>accessed and ordered by index</strong>, the values in objects are known as properties are accessed via <strong>keys</strong></p>
-    </section>
-
-    <section>
-      <h2>omg let's build.</h2>
-      <p class="fragment">Let's model the following using the data types and structures you just learned:</p>
-      <p>&nbsp;</p>
-      <ul>
-        <li class="fragment">A list of three different people</li>
-        <li class="fragment">The people should have names, ages and a list of their three favorite foods.</li>
-      </ul>
-    </section>
-
-    <section>
-      <h3> What is the best way to do this?</h3> 
-      <ul>
-        <li class="fragment">Lists? </li>
-        <li class="fragment">Dictionaries? </li>
-        <li class="fragment">Lists of Dictionaries? </li>
-      </ul>
-      <h4 class="fragment" style="margin-top:25px;"><strong>Hint:</strong> An list of objects that have properties that are strings, numbers, and lists.</h4>
-      <ul style="margin-top:20px;">
-        <li class="fragment">A list of three different people (objects)</li>
-        <li class="fragment">The people should have names, ages and a list of their three favorite foods.</li>
-      </ul>
-    </section>
-
-
-    <section>
-      <h1><strong>Live Code</strong></h2>
-    </section>
-
-    <section>
-      <h2>Resources to learn more</h2>
-      <ul class="fragment">
-        <li>LearnPythonTheHardWay.org/book</li>
-        <li>Codecademy</li>
-        <li>Code School</li>
-        <li>Treehouse</li>
-        <li>Stack Overflow</li>
-        <li>Python Documentation</li>
-        <li>Guides and blog posts</li>
-        <li>Google</li>
-        <li>Playing around!</li>
-      </ul>
-    </section>
 
     <section>
       <h2>Thanks for joining us!</h2>
