@@ -11,9 +11,9 @@ The workshop should take about 1 to 1.5 hours in total:
 
 ```
 15 mins - Intros and Icebreaker
-10 mins - Part 1 - Bird's eye view
-15 minutes - Part 2 - Data types and data structures in Python
-30 minutes - Part 3: using Flask to build a web server
+15 mins - Overview
+20 minutes - HTML 101
+20 minutes - CSS 101
 ```
 
 ### Icebreaker
